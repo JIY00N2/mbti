@@ -8,3 +8,7 @@
 5. 밑줄 추가/제거
    => text-decoration: underline; / text-decoration:none;
 6. 한글에서 띄어쓰기로 단어 구분 => word-break: keep-all;
+
+### 2. JS
+
+1. export - 다른 파일에서 변수 사용가능(내보내기)
