@@ -81,3 +81,18 @@ img{
   height:70px;
   font-size: 27px;
 }
+
+/* 화면 크기가 작아져도 모양 유지하기 */
+/* 화면의 크기가 640px이하(모바일 화면)일때 괄호 안에 내용 실행 */
+@media (max-width: 640px){
+  body{
+    padding-top:50px;
+    margin: 0px 20px;
+  }
+  .page-title{
+    font-size:40px;
+  }
+  .btn{
+    font-size:30px;
+  }
+}

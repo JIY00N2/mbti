@@ -45,3 +45,17 @@ body{
   border-radius:120px;
   font-size:22px;
 }
+@media (max-width:640px){
+  .progress{
+    margin-bottom:30px;
+  }
+  .question-box{
+    padding: 0px 12px;
+  }
+  .question-box .question{
+    font-size:28px;
+  }
+  .question-box .choice{
+    font-size:20px;
+  }
+}
